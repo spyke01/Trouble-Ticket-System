@@ -1,0 +1,343 @@
+body {
+	background: #0d405b url('images/bg_grad.gif');
+	padding: 0;
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: left;
+	color: #3A3C3D;	
+	margin: 0px;	
+	padding: 0px;		
+}
+
+/*==============================
+	Layout 
+==============================*/
+/* IE5 Mac only */
+#container {
+	padding: 0 0 0 100px;
+	background: transparent;
+	width: 900px;
+	text-align: left;
+}
+/* All browsers \*/
+#container {
+	background: transparent;
+	padding: 0 0 0 0;
+	width: 800px;  
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page {
+	float: left;
+	background: #fff;
+	border-left: 8px solid #214c62;
+	border-right: 8px solid #214c62;
+	width: 798px;
+	padding: 1px;
+	color: #000;			
+}
+#header {
+	float: left;
+	background: #fff;
+	color: #000;			
+}
+#top-nav {
+	float: left;
+	clear: both;
+	background: #000 url('images/nav-grad.jpg');
+	width: 798px;
+	padding: 0;
+	color: #000;			
+}
+#user-options {
+	float: left;
+	clear: both;
+	background: #354953;
+	border-bottom: 1px solid #fff;
+	width: 794px;
+	height: 18px;
+	padding: 2px;
+	color: #fff;			
+}
+#user-options a {
+	color: #85bd06;
+	text-decoration: underline;			
+}
+#user-options a:hover {
+	color: #85bd06;
+	text-decoration: none;			
+}
+
+#content {
+	float: left;
+	clear: both;
+	background: #fff;
+	width: 798px;
+	min-height: 400px;
+	padding: 0;
+	color: #000;
+	text-align: left;			
+}
+
+#footer {
+	float: left;
+	clear: both;
+	background: #4c6674;
+	border-top: 1px solid #fff;
+	width: 794px;
+	padding: 2px;
+	color: #fff;			
+}
+#footer a {
+	color: #85bd06;
+	text-decoration: underline;			
+}
+#footer a:hover {
+	color: #85bd06;
+	text-decoration: none;			
+}
+/*  images ----------------------------------------------------*/
+img {
+	border: 0px none;
+}
+.imgfloatleft {
+	float: left;
+	border-right: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+}
+.imgfloatright {
+	float: right;
+	border-left: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+}
+
+/*  Links 
+---------------------------------------------------------------*/
+a {
+	color: #85bd06;
+	text-decoration: underline;	
+}
+a:hover {
+	color: #85bd06;
+	text-decoration: none;	
+}
+
+
+
+/*  H1 H2 H3
+---------------------------------------------------------------*/
+h1 {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 18px;
+}
+#content h1 {
+	margin: 1em 0 0.2em 0;
+	border-bottom: 1px solid #e6e3e3;
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	color: #244362;
+}
+h2 {
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 18px;
+}
+#content h2 {
+	margin: 1em 0 0.2em 0;
+	border-bottom: 1px solid #e6e3e3;
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	color: #244362;
+}
+
+h3 {
+	margin: 1em 0 0.2em 0;
+	border-bottom: 1px solid #e6e3e3;
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: #244362;
+}
+h3 {
+	margin: 1em 0 0.2em 0;
+	border-bottom: 1px solid #e6e3e3;
+	font-family: Helvetica, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: #244362;
+}
+
+
+
+/*  Customize and Order Buttons
+---------------------------------------------------------------*/
+input.button {
+	border: 1px solid #ddd;
+	background: #f9f9f9;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;
+	padding: 2px 10px !important;
+	padding: 2px 0px;
+	margin: 0;
+}
+
+input.button:hover { 
+	border: 1px solid #65757c; 
+	background: #4c6674;
+	color: #fff;
+}
+
+
+/*  Navigation 
+---------------------------------------------------------------*/
+#nav, #nav ul {
+	float: left;
+	width: 798px;
+	list-style: none;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#nav a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 36px;
+	padding: 2px 2em;
+}
+
+#nav li {
+	display: inline;
+	position: relative;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+#nav li:hover, #nav li.sfhover {
+	background: url('images/nav-grad-over.jpg');
+}
+
+#nav a:hover, #nav a.sfhover {
+	color: #85bd06;
+}
+
+
+/*  Tables 
+---------------------------------------------------------------*/
+.data-table {
+	width: 798px;
+	border-top: 1px solid #5a5a5a;
+	border-left: 1px solid #5a5a5a;
+}
+.data-table-small {
+	width: 400px;
+	border-top: 1px solid #5a5a5a;
+	border-left: 1px solid #5a5a5a;
+}
+
+.datatable-header1 {
+	background: #000 url('images/nav-grad.jpg');
+	color: #fff;
+	font-weight: bold;
+	border-right: 1px solid #5a5a5a;
+	border-bottom: 1px solid #5a5a5a;
+	padding: 6px;
+}
+
+.datatable-header2 {
+	background: #65757c;
+	color: #85bd06;
+	font-weight: bold;
+	border-right: 1px solid #5a5a5a;
+	border-bottom: 1px solid #5a5a5a;
+	padding: 4px;
+}
+
+.datatable-row1 {
+	background: #fff;
+	color: #3f3f3f;
+	border-right: 1px solid #5a5a5a;
+	border-bottom: 1px solid #5a5a5a;
+	padding: 2px 4px;
+}
+
+.datatable-row1-open {
+	background: #e7eddf;
+	color: #6d9d2e;
+	font-weight: bold;
+	border-right: 1px solid #5a5a5a;
+	border-bottom: 1px solid #5a5a5a;
+	padding: 2px 4px;
+}
+
+.datatable-row1-closed {
+	background: #f1e8e6;
+	color: #c24733;
+	font-weight: bold;
+	border-right: 1px solid #5a5a5a;
+	border-bottom: 1px solid #5a5a5a;
+	padding: 2px 4px;
+}
+
+.datatable-row2 {
+	background: #ccd1d4;
+	color: #3f3f3f;
+	border-right: 1px solid #5a5a5a;
+	border-bottom: 1px solid #5a5a5a;
+	padding: 2px 4px;
+}
+
+.datatable-row2-open {
+	background: #e7eddf;
+	color: #6d9d2e;
+	font-weight: bold;
+	border-right: 1px solid #5a5a5a;
+	border-bottom: 1px solid #5a5a5a;
+	padding: 2px 4px;
+}
+
+.datatable-row2-closed {
+	background: #f1e8e6;
+	color: #c24733;
+	font-weight: bold;
+	border-right: 1px solid #5a5a5a;
+	border-bottom: 1px solid #5a5a5a;
+	padding: 2px 4px;
+}
+
+input.disabled {
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+input.required, textarea.required {
+	border: 1px solid #00A8E6;
+}
+input.validation-failed, textarea.validation-failed {
+	border: 1px solid #FF3300;
+	color : #FF3300;
+}
+input.validation-passed, textarea.validation-passed {
+	border: 1px solid #00CC00;
+	color : #000;
+}
+
+.validation-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #FF3300;
+	color : #FFF;
+	font-weight: bold;
+}
+
+.custom-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #C8AA00;
+	color : #FFF;
+	font-weight: bold;
+}

@@ -1,0 +1,168 @@
+/*------------------------------------------------------------------
+| General page style. The scroll bar colors only visible in IE5.5+ |
+------------------------------------------------------------------*/
+html{
+	overflow-x: auto; /* fixes MSIE scrollbar bug DO NOT REMOVE, has no effect in Mozilla, or Opera */
+}
+
+body {
+	background: #0d405b url('images/bg_grad.gif');
+	color: #000000;
+	BORDER-RIGHT: 0px;
+	BORDER-TOP: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-BOTTOM: 0px
+	font-family: Verdana, Tahoma, Arial, Trebuchet MS, Sans-Serif, Georgia, Courier, Times New Roman, Serif;
+	font-size: 11px;
+	line-height: 135%;
+	margin: 0;
+	padding: 0; /* required for Opera to have 0 margin */
+	text-align: center; /* centers board in MSIE */
+}
+
+.title2 {
+	border-left:0px none; 
+	border-right:0px none; 
+	background-image:url('images/title_bg.gif'); 
+	height:18px; color:#000000; 
+	font-weight:bold; 
+	font-size:10px; 
+	border-top:1px solid #656B78; 
+	border-bottom:1px solid #656B78; 
+	padding-left:5px; 
+	padding-right:5px
+}
+
+.colour1 {
+	padding-left:0px; 
+	padding-right:0px; 
+	background-color: #3f82ac; 
+	padding-top:0px; 
+	padding-bottom:0px; 
+	color: #000000;
+}
+
+.colour2 {
+	background-color:#fff; 
+	color: #000000;
+}
+
+.divider {
+	background-color:#707070; 
+	color: #000000;
+}
+
+
+/*---------------------------------------
+| General font families for common tags |
+---------------------------------------*/
+font, th, td, p {
+  font-family: Lucida Sans Unicode,Lucida Sans,Tahoma,Helvetica,Arial; }
+a:link, a:active, a:visited {
+  text-decoration: none;
+  color : #336699; }
+a:hover	{
+  text-decoration: underline;
+  color : #000; }
+hr {
+  width: 300px;
+  color: #6699CC;
+}
+
+  
+input, textarea, select {
+  color: #707070;
+  font: normal 11px Lucida Sans Unicode,Lucida Sans,Tahoma,Helvetica,Arial;
+  border-color: #707070; 
+}
+
+input.post, textarea.post, select {
+  background-color: #949494; 
+}
+select {
+  background-color: #fff; 
+}
+  
+input {
+  text-indent: 2px; 
+}
+
+.textarea,
+.searchinput,
+.button,
+.gobutton {
+	background: #FFF;
+	border: 1px solid #707070;
+	color: #000;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	font-size: 11px;
+	padding: 2px;
+	vertical-align: middle;
+ }
+.button{
+	background: #949494;
+}
+
+.gobutton{
+	background: transparent;
+	border: 0;
+	color: #072A66;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.forumborder{ 
+	background: #FFF; 
+	border: 1px solid #000;
+	padding: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 600px;
+	palign: center;
+}
+.navbarborder{ 
+	background: #FFF; 
+	border: 1px solid #000;
+	padding: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 800px;
+	palign: center;
+}
+.loginborder{ 
+	background: #FFF; 
+	border: 1px solid #000;
+	padding: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 300px;
+	palign: center;
+}
+.logo{ 
+	background: transparent; 
+	padding: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 800px;
+	palign: center;
+}
+
+
+/*/////////////////////////////
+		Footer Style
+/////////////////////////////*/
+
+.footerborder{ 
+	background: #FFF; 
+	border: 1px solid #000;
+	padding: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 800px;
+	palign: center;
+}
+.footer{
+	background: #545454;
+	color: #b6b6b6; 
+	text-align: center;
+}
